@@ -1,0 +1,22 @@
+/*
+ * Copyright 2014 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ */
+
+@import url("dialog.css");
+@import url("inspectorStyle.css");
+@import url("inspectorCommon.css");
+@import url("inspectorSyntaxHighlight.css");
+@import url("popover.css");
+@import url("sidebarPane.css");
+@import url("suggestBox.css");
+@import url("tabbedPane.css");
+
+#sources-editor-container-tabbed-pane .tabbed-pane-content {
+    height: calc(100vh - 116px);
+}
+#console-messages {
+
+    height: calc(100vh - 97px);
+}
